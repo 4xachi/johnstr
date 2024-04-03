@@ -11,9 +11,10 @@
   --hue-color: 202;
   /*Purple 250 - Green 142 - Blue 202 - Pink 340*/
   
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color: hsl(var(--hue-color), 10%, 70%);
+  --first-color-alter: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 10%, 70%);
+  --first-color-alt: hsl(var(--hue-color), 10%, 70%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
@@ -253,10 +254,11 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
+  transition: .4s;
 }
 
 .nav__close:hover {
-  color: var(--first-color-alt);
+  color: var(--first-color-alter);
 }
 
 /* show menu */
@@ -294,10 +296,11 @@ img {
 .home__social-icon {
   font-size: 1.25rem;
   color: var(--first-color);
+  transition: .4s;
 }
 
 .home__social-icon:hover {
-  color: var(--first-color-alt);
+  color: var(--first-color-alter);
 }
 
 .home__blob {
@@ -306,8 +309,8 @@ img {
 }
 
 .home__blob-img {
-  width: 200px;
-  height: 190px;
+  width: 185px;
+  height: 185px;
   position: relative;
   transition: transform 0.7s;
 }
@@ -374,10 +377,11 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  transition: .4s;
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color-alter);
 }
 
 .button__icon {
@@ -1004,7 +1008,7 @@ img {
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color-alter);
 }
 
 .scrollup__icon {
